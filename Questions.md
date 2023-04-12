@@ -112,3 +112,28 @@ jewels = "abc", stones = "ac", return 2
 jewels = "Af", stones = "AaaddfFf", return 3
 jewels = "AYOPD", stones = "ayopd", return 0
 ```
+
+## Valid Anagram
+
+This question is asked by Facebook. Given two strings `s` and `t` return whether or not `s` is an anagram of `t`.
+Note: An anagram is a word formed by reordering the letters of another word.
+
+Ex: Given the following strings...
+
+```
+s = "cat", t = "tac", return true
+s = "listen", t = "silent", return true
+s = "program", t = "function", return false
+```
+
+## First Unique Character
+
+This question is asked by Microsoft. Given a string, return the index of its first unique character. If a unique character does not exist, return `-1`.
+
+Ex: Given the following strings...
+
+```
+"abcabd", return 2
+"thedailybyte", return 1
+"developer", return 0
+```
